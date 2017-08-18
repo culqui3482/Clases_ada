@@ -1,0 +1,58 @@
+*{border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #ccc ;/*color gris*/
+}
+#contenedor{ 
+	height: 1050px;
+	width: 780px;
+	margin-right: auto;
+	margin-left: auto;
+}
+header, #banner, #noticias, #tienda, #marca{ 
+	background:#fff  ;
+	width: 780px;
+	height: 100px;
+}
+#banner{
+	background:#666;/*celetes*/
+	height: 300px;
+
+}
+
+#noticias{
+	background:#fff;/*verde agua*/
+	height: 220px;
+}
+
+#tienda{
+	background:#666; /*color azul*/
+	height: 180px;
+}
+
+#marca {
+	background:#fff ;/*color rojo*/
+	height: 100px;
+}
+
+footer {
+	background:#f21;/*negro*/
+	width: 780px;
+	height: 60px;
+}
+
+h1 {
+	color: #FFFFFF;              
+	font-family: 'Trebuchet MS';font-weight: 200;
+	font: monospace; font-size: 60px;
+	text-align: center;bottom: 0;
+}
+
+
+
+
+
+

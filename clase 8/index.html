@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form action="index.html" method="get"><!-- form es un bloque y todos los elementos va estar dentro de estas dos
+	etiquetas action = se queda donde se envia esa informacion , method= relacion entre varios "get","pot" dentro del form vamos a poner campos una de ellos son label-->
+		<div> <!-- NOMBRE paginas w3school-->
+			<!-- http://materializecss.com/.... guia para label frensword de css 
+			 www.colorid... esat bueno  
+			 bustrak fundation .. wordpress: maneja su contenido al gusto. vos mismas gestionar tu contenido... o dominio...... diseños de los mailins??''- con el celular responsir''...???? 
+			 templates ??? algunos pagos....-->
+			<!-- etiqueta del campo ....  tiene un atributo  que es for-->
+			<label for="nombre">Nombre </label>
+			<input   minlength="5" maxlength="8" type="text" name="nombre" id="nombre" placeholder="escribi algo" >
+
+			<!-- te ayuda a que aprece algo antes de escribir  -->
+			<!-- tiene varios atributos como numerico ,texto, pass, visualmente el name no sale al suario id= se va asociar con el nombre  -->
+		</div>
+
+
+		<div> <!--APELLIDO -->
+			<label for="apellido"><!-- etiqueta del campo ....  tiene un atributo  que es for-->
+			Apellido
+			</label>	
+			<input placeholder="escribi algo" type="text" name="apellido" id="apellido" required><!-- required= si o si se tiene q escribir
+			tiene varios atributos como numerico ,texto, pass, visualmente el name no sale al suario id= se va asociar con el nombre  -->
+		</div>
+
+		<div> <!-- EDAD-->
+			<label for="edad">
+			Edad
+			</label>	
+			<input value="18" min="1" max="99" type="number" name="edad" id="edad" placeholder="edad" required="">
+			<!-- Value le da un valor que puede aceder ejem 18 -->
+		</div>
+
+		<div> <!-- nacimiento-->
+			<label for="nacimiento">nacimiento</label>	
+			<input type="date" name="nacimiento" id="nacimiento">
+			<!-- Value le da un valor que puede aceder ejem 18 -->
+		</div>
+
+		<div> <!-- rango.-->
+			<label for="algoconrango">algo con rango</label>	
+			<input  type="range" name="algoconrango" id="algoconrango" >
+			<!--  -->
+		</div>
+
+
+
+
+		<div> <!-- EMAIL-->
+			<label for="email"><!-- etiqueta del campo ....  tiene un atributo  que es for-->
+			Email
+			</label>	
+			<input placeholder="escribi un mail" type="email" name="email" id="email" ><!-- `para los  mail  -->
+		</div>
+
+
+		<div><!-- -ENVIAR -LIMPIAR -NO HAY -->
+			<button type="submit"><!--subir copia la direccion del html y pego en mis campos el nombre y mi archivo.lo manda a travez de GET= HTTP(INTRO)-->
+				enviar
+			</button>
+			<button type="reset"><!--limpia todo del formulario -->
+				limpiar
+			</button>
+			<button type="button"><!--dejarme el boton sin funcionalidad lo puedo asociar en java script -->
+				no hago nada 
+			</button>
+			<!-- input con un tex area ..  me deja hacer un espacio de caracteres "diferencia"-->
+		</div>
+		
+		<div><!-- texto de cuadro -->
+			<label for="mensaje" >Mensaje</label>
+			<textarea id="mensaje" placeholder="escribi algo"></textarea>
+		</div>
+
+		
+		<div><!-- check de cuadrito -->
+			<label for="terminosycondiciones" id="checkbox">
+				acepta terminos y condiciones 
+			</label>
+			<input id="terminosycondiciones" type="checkbox" checkbox="true">
+		</div>
+		
+		<div><!-- check de circular-->
+			<label for="terminosycondiciones_si">
+				si 
+			</label>
+			<input id="terminosycondiciones_si" type="radio" name="terminosycondiciones">
+			<label for="terminosycondiciones_no" >
+				No
+			</label>
+			<input id="terminosycondiciones" type="radio" name="terminosycondiciones">
+		</div>
+		
+		<div><!-- boton para subir un archivo  -->
+			<input type="file" name="foto">
+		</div>
+
+		
+		<div><!-- seleccion-->
+		<label for="algoqueselecione"> selecciona algo </label>
+		<select  id="algoqueselecione" name="algoqueselecione" required=""> 
+
+				<!--seleciona por una vez  seleciio q vos quieras ej. opcion1-->
+				<option ></option>
+				<option selected="true"> opcion1</option>
+				<option> opcion2</option>
+				<option> opcion3</option>
+				<option> opcion4</option>
+		</select>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+	</form>
+
+
+</body>
+</html>
